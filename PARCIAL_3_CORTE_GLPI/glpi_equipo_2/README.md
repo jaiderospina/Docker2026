@@ -11,6 +11,7 @@
 
 - Contenedor GLPI
 - Contenedor MariaDB
+![GLPI](informacion/imagenes/container.jpeg)
 - Persistencia mediante volúmenes
 - Variables de entorno para seguridad
 
