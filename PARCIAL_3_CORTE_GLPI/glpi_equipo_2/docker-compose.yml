@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+
+  mariadb:
+    image: mariadb:10.6
+    container_name: glpi-db
+    restart: always
+    env_file:
+      - .env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - db_data:/var/lib/mysql
+
+  glpi:
+    image: glpi/glpi:latest
+    container_name: glpi-app
+    restart: always
+    depends_on:
+      - mariadb
+    ports:
+      - "8080:80"
+    volumes:
+      - glpi_data:/var/www/html
+
+volumes:
+  db_data:
+  glpi_data:
