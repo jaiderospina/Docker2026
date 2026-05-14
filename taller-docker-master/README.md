@@ -1,9 +1,34 @@
-# Taller básicos e introductorios a Docker
+# GLPI Docker
 
-## Contenido
+## Tecnologías utilizadas
 
-- [ Taller 1: Introducción a Docker ](taller1-introduccion.md)
-- [ Taller 2: Acceso público de containers por puertos ](taller2-acceso-puertos.md)
-- [ Taller 3: Creación de imágenes de containers con Dockerfiles ](taller3-dockerfiles.md)
-- [ Taller 4: Uso de Docker Compose ](taller4-docker-compose.md)
+- Docker
+- Docker Compose
+- MariaDB
+- GLPI
 
+## Estructura
+
+- Contenedor GLPI
+- Contenedor MariaDB
+- Persistencia mediante volúmenes
+- Variables de entorno para seguridad
+
+## Ejecución
+
+docker compose up -d
+
+## Acceso
+
+http://localhost:8080
+
+## Variables de entorno
+
+Configurar el archivo .env basado en .env.example.
+
+## Autores
+
+Jimmy lucas
+Cristian sanchez
+juan rodriguez
+Daniel gomez
