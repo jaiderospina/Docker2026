@@ -22,14 +22,14 @@ El presente ejercicio tiene como finalidad desplegar una instancia funcional de 
 Para iniciar el proceso se consultó la imagen oficial de GLPI en Docker Hub y el repositorio oficial del proyecto en GitHub. Esta revisión permite confirmar que se está utilizando una imagen confiable y mantenida por el proyecto GLPI.
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Localizacion_GLPI.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png`
 
-![Repositorio oficial GLPI en Docker Hub](./imagenes/Localizacion_GLPI.png)
+![Repositorio oficial GLPI en Docker Hub](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png)
 
 **Imagen opcional que puedes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Tags.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png`
 
-![Repositorio oficial GLPI en GitHub](./imagenes/Tags.png)
+![Repositorio oficial GLPI en GitHub](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png)
 
 ---
 
@@ -44,9 +44,9 @@ image: glpi/glpi:11.0
 El uso de una etiqueta específica garantiza mayor control sobre la versión desplegada y facilita la reproducción del entorno en otros equipos.
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Tag elegido.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tag%20elegido.png`
 
-![Tags disponibles de GLPI](./imagenes/Tag elegido.png)
+![Tags disponibles de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tag%20elegido.png)
 
 ---
 
@@ -79,9 +79,9 @@ GLPI_DB_HOST=db
 Esto significa que GLPI no se conecta a `localhost`, sino al servicio llamado `db`, definido dentro del archivo `docker-compose.yml`.
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Variables.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png`
 
-![Archivo env con variables de entorno](./imagenes/Variables.png)
+![Archivo env con variables de entorno](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png)
 
 ---
 
@@ -127,9 +127,9 @@ services:
 ```
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Creacion yml servicios.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20yml%20servicios.png`
 
-![Archivo docker-compose.yml](./imagenes/Creacion yml servicios.png)
+![Archivo docker-compose.yml](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20yml%20servicios.png)
 
 ---
 
@@ -155,9 +155,9 @@ http://localhost:8090
 ```
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Ingreso GLPI localhost.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
 
-![Mapeo del puerto 8090](./imagenes/Ingreso GLPI localhost.png)
+![Mapeo del puerto 8090](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
 
 ---
 
@@ -181,9 +181,9 @@ volumes:
 | `db_data` | `/var/lib/mysql` | Guarda datos internos de MySQL. |
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Creacion de volumenes.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png`
 
-![Volúmenes definidos en Docker Compose](./imagenes/Creacion de volumenes.png)
+![Volúmenes definidos en Docker Compose](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png)
 
 Para verificar la creación de los volúmenes se utilizó:
 
@@ -192,9 +192,9 @@ docker volume ls
 ```
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Creacion de volumenes.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png`
 
-![Listado de volúmenes Docker](./imagenes/Creacion de volumenes.png)
+![Listado de volúmenes Docker](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png)
 
 ---
 
@@ -217,9 +217,9 @@ docker compose up -d
 Este comando descarga las imágenes necesarias y levanta los servicios en segundo plano.
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Descargar imagenes y levantar servicios.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Descargar%20imagenes%20y%20levantar%20servicios.png`
 
-![Levantamiento de servicios Docker Compose](./imagenes/Descargar imagenes y levantar servicios.png)
+![Levantamiento de servicios Docker Compose](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Descargar%20imagenes%20y%20levantar%20servicios.png)
 
 ---
 
@@ -239,9 +239,9 @@ glpi_db
 ```
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Docker compose ps.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Docker%20compose%20ps.png`
 
-![Contenedores GLPI activos](./imagenes/Docker compose ps.png)
+![Contenedores GLPI activos](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Docker%20compose%20ps.png)
 
 ---
 
@@ -265,9 +265,9 @@ Base de datos: glpi
 No se utiliza `localhost`, porque dentro de la red de Docker Compose el contenedor de GLPI identifica al contenedor de MySQL mediante el nombre del servicio `db`.
 
 **Imagen que debes pegar aquí si GLPI entró directamente al login:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Ingreso GLPI localhost.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
 
-![Login de GLPI](./imagenes/Ingreso GLPI localhost.png)
+![Login de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
 
 ---
 
@@ -298,9 +298,9 @@ glpi
 ```
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\reconoce base datos glpi en myqsl.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/reconoce%20base%20datos%20glpi%20en%20myqsl.png`
 
-![Validación de base de datos glpi](./imagenes/reconoce base datos glpi en myqsl.png)
+![Validación de base de datos glpi](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/reconoce%20base%20datos%20glpi%20en%20myqsl.png)
 
 ---
 
@@ -315,9 +315,9 @@ http://localhost:8090
 El ingreso correcto a la interfaz confirma que el despliegue fue exitoso.
 
 **Imagen que debes pegar aquí:**  
-`C:\Users\IKAROS\mi-nginx\PARCIAL_TERCER_CORTE\imagenes\Ingreso GLPI localhost.png`
+`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
 
-![Interfaz gráfica de GLPI](./imagenes/Ingreso GLPI localhost.png)
+![Interfaz gráfica de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
 
 ---
 
