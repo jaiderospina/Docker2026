@@ -1,8 +1,13 @@
 ### Nota Parcial 3er Cote: Despliegue de GLPI desde Repositorio Oficial (GLPI)
 
+
+
 #### 1. Introducción y Contexto
 
 El objetivo es desplegar una instancia funcional de GLPI utilizando únicamente las definiciones del repositorio oficial. Se requiere un enfoque de **infraestructura como código** (IaC) para garantizar que el servicio sea reproducible y seguro.
+
+
+![](GLPI.jpg)
 
 #### 2. Objetivos de la Práctica
 
