@@ -79,10 +79,6 @@ Esto significa que GLPI no se conecta a `localhost`, sino al servicio llamado `d
 **Imagen que debes pegar aquí:**  
 ![Variables](Variables.png)
 
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png`
-
-![Archivo env con variables de entorno](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png)
-
 ---
 
 # Fase II: Despliegue de la Infraestructura
@@ -127,9 +123,8 @@ services:
 ```
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20yml%20servicios.png`
+![Creacion yml servicios](Creacion yml servicios.png)
 
-![Archivo docker-compose.yml](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20yml%20servicios.png)
 
 ---
 
@@ -155,9 +150,7 @@ http://localhost:8090
 ```
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
-
-![Mapeo del puerto 8090](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
+![Ingreso GLPI localhost](Ingreso GLPI localhost.png)
 
 ---
 
@@ -181,9 +174,8 @@ volumes:
 | `db_data` | `/var/lib/mysql` | Guarda datos internos de MySQL. |
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png`
+![Creacion de volumenes](Creacion de volumenes.png)
 
-![Volúmenes definidos en Docker Compose](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png)
 
 Para verificar la creación de los volúmenes se utilizó:
 
@@ -192,9 +184,7 @@ docker volume ls
 ```
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png`
-
-![Listado de volúmenes Docker](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Creacion%20de%20volumenes.png)
+![Creacion de volumenes](Creacion de volumenes.png)
 
 ---
 
@@ -217,9 +207,9 @@ docker compose up -d
 Este comando descarga las imágenes necesarias y levanta los servicios en segundo plano.
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Descargar%20imagenes%20y%20levantar%20servicios.png`
+![Descargar imagenes y levantar servicios](Descargar imagenes y levantar servicios.png)
 
-![Levantamiento de servicios Docker Compose](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Descargar%20imagenes%20y%20levantar%20servicios.png)
+
 
 ---
 
@@ -239,9 +229,8 @@ glpi_db
 ```
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Docker%20compose%20ps.png`
+![Docker compose ps](Docker compose ps.png)
 
-![Contenedores GLPI activos](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Docker%20compose%20ps.png)
 
 ---
 
@@ -265,9 +254,8 @@ Base de datos: glpi
 No se utiliza `localhost`, porque dentro de la red de Docker Compose el contenedor de GLPI identifica al contenedor de MySQL mediante el nombre del servicio `db`.
 
 **Imagen que debes pegar aquí si GLPI entró directamente al login:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
+![Ingreso GLPI localhost](Ingreso GLPI localhost.png)
 
-![Login de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
 
 ---
 
@@ -298,9 +286,7 @@ glpi
 ```
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/reconoce%20base%20datos%20glpi%20en%20myqsl.png`
-
-![Validación de base de datos glpi](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/reconoce%20base%20datos%20glpi%20en%20myqsl.png)
+![reconoce base datos glpi en mysql](reconoce base datos glpi en mysql.png)
 
 ---
 
@@ -315,9 +301,8 @@ http://localhost:8090
 El ingreso correcto a la interfaz confirma que el despliegue fue exitoso.
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png`
+![Ingreso GLPI localhost](Ingreso GLPI localhost.png)
 
-![Interfaz gráfica de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Ingreso%20GLPI%20localhost.png)
 
 ---
 
