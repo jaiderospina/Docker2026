@@ -22,7 +22,7 @@ El presente ejercicio tiene como finalidad desplegar una instancia funcional de 
 Para iniciar el proceso se consultó la imagen oficial de GLPI en Docker Hub y el repositorio oficial del proyecto en GitHub. Esta revisión permite confirmar que se está utilizando una imagen confiable y mantenida por el proyecto GLPI.
 
 **Imagen que debes pegar aquí:**  
-![Docker2026](Esteban-andres-olmedo-nicolas/Localizacion_GLPI.png)
+![GLPI](Esteban-andres-olmedo-nicolas/Localizacion_GLPI.png)
 `https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png`
 
 ![Repositorio oficial GLPI en Docker Hub](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png)
