@@ -51,7 +51,7 @@ glpi-docker/
 ---
 
 # Instalación
-![GLPI](informacion/imagenes/instalaciones.jpeg)
+![GLPI](informacion/imagenes/instalacion.jpeg)
 ## Ingresar al proyecto
 
 ```bash
