@@ -25,13 +25,10 @@ Para iniciar el proceso se consultó la imagen oficial de GLPI en Docker Hub y e
 ![Localizacion GLPI](Localizacion_GLPI.png)
 
 **Imagen opcional que puedes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png`
+
 
 
 ![Tags](Tags.png)
-
-![Repositorio oficial GLPI en GitHub]
-(https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png)
 
 ---
 
@@ -46,9 +43,8 @@ image: glpi/glpi:11.0
 El uso de una etiqueta específica garantiza mayor control sobre la versión desplegada y facilita la reproducción del entorno en otros equipos.
 
 **Imagen que debes pegar aquí:**  
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tag%20elegido.png`
+![Tag elegido](Tag elegido.png)
 
-![Tags disponibles de GLPI](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tag%20elegido.png)
 
 ---
 
@@ -81,6 +77,8 @@ GLPI_DB_HOST=db
 Esto significa que GLPI no se conecta a `localhost`, sino al servicio llamado `db`, definido dentro del archivo `docker-compose.yml`.
 
 **Imagen que debes pegar aquí:**  
+![Variables](Variables.png)
+
 `https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png`
 
 ![Archivo env con variables de entorno](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Variables.png)
