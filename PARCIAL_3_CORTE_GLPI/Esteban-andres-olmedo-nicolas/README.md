@@ -23,14 +23,15 @@ Para iniciar el proceso se consultó la imagen oficial de GLPI en Docker Hub y e
 
 **Imagen que debes pegar aquí:**  
 ![Localizacion GLPI](Localizacion_GLPI.png)
-`https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png`
-
-![Repositorio oficial GLPI en Docker Hub](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Localizacion_GLPI.png)
 
 **Imagen opcional que puedes pegar aquí:**  
 `https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png`
 
-![Repositorio oficial GLPI en GitHub](https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png)
+
+![Tags](Tags.png)
+
+![Repositorio oficial GLPI en GitHub]
+(https://raw.githubusercontent.com/jaiderospina/Docker2026/main/PARCIAL_3_CORTE_GLPI/Esteban-andres-olmedo-nicolas/imagenes/Tags.png)
 
 ---
 
